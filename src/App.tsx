@@ -58,7 +58,6 @@ const App = () => {
 
         {loading &&
           <C.ScreenWarning>
-            <div className="emoji">🤚</div>
             <div>Carregando...</div>
           </C.ScreenWarning>
         }
@@ -78,7 +77,6 @@ const App = () => {
 
         {!loading && photos.length === 0 &&
           <C.ScreenWarning>
-            <div className="emoji">😞</div>
             <div>Não há fotos cadastradas.</div>
           </C.ScreenWarning>
         }
